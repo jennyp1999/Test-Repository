@@ -7,3 +7,47 @@
     <p>This is version control practise</p>
   </body>
 </html>
+
+<!-- Version control - the process of managing and tracking changes to software code using version control software
+  - Good for team work as members can upload new code or changes and the rest of the team can see it, ensures that
+  the team is working with the same version -->
+
+<!-- GitHub Definitions:
+  Repository - All the folders and files associated with a project as well as each file's revision history
+  Commit - a file version in the history of the file
+  Branch - Line of development that allows for experimentation or the development of features or bug fixes
+           without affecting the original branch.
+         - Initialising a repository creates a branch that is called main by default
+         - Branches can be merged
+  Staging - prepares a file for the commit
+          - changes that are staged will become part of the next snapshot of the project's history
+          - useful as allows you to commit only what you are happy with, for example, if you are working
+          on two features but have only finished one, staging only the finished feature allows you to commit only the finished featire -->
+
+<!-- GitHub process - below are the commands needed to create and manage a repository:
+
+  Initialise the current directory as a local git repository             :   git init -b main
+    - Only needs to be done once per repository
+    - Don't theink -b main is necessary as 
+    the initialised branch is called main
+    by default
+  
+  Add files in this directory to the local repository                    :   git add .
+    - Τhis stages the files for the commit
+
+  Commit the files to the LOCAL repository with the label message name   :   git commit -m "message name"
+    - This commits the files to the repository
+    - Saves the staged 'snapshot' to the project
+    history
+  
+  Transfers changes from local repository to remote repository           :   git push
+
+  Transfers changes from local repository to remote repository           :   git pull  
+
+  COMMIT vs PUSH: Commit will only make changes to the local repository
+                  Push will only make changes the remote repository
+                
+  Create a remote repository with the given name                         :   git remote add <name> <remote url>
+    - url provides the location of the remote github repository
+  
+  Check the name and location of the remote repository                   :   git remote -v  -->

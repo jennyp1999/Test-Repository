@@ -53,3 +53,29 @@
     - url provides the location of the remote github repository
   
   Check the name and location of the remote repository                   :   git remote -v  -->
+
+
+<!-- Local repository commands:
+  - Create empty git repository : git init
+  - Add new/modified files to staging area : git add .
+  - Saves new/modified files to the local repository: git commit -m "commit message"
+  - Display current status of the local repository : git status
+    and tells us what the working branch is, if 
+    the files are in the staging area, if there are
+    no changes to commit
+  - Tells us what branch the local repository is on : git branch
+  - Creates a new branch : git branch <branch-name>
+  - Lists all local and remote branches : git branch -a
+  - Deletes a branch: git branch -d <branch-name>
+  - Switches to an existing branch : git checkout <branch-name>
+  - Creates a new branch and switches to it git checkout -b <new-branch-name>
+  - Merges specified branches content into current branch : git merge <branch-name>
+  -->
+
+  <!-- Remote Repository Commands:
+    - Creates a conntection to the remote repository  : git remote add <name> <remote-rep-url>
+      AND associates a specified name to the remote repository url as shorthand
+    - Creates a local working copy of a remote repository: git clone <remote-rep-url>
+    - Fetches and merges changes in the remote repository to the local repository : git pull <branch-name> <remote-rep-url>
+    - Transfers the local repository content to the remote repository : git push -u origin master
+   -->
